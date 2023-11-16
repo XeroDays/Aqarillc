@@ -21,30 +21,24 @@ class Task1Viewmodel extends ChangeNotifier {
   }
 
   void changeColor() {
-    //select random color
+    //select random color from contants
     _color = colors_constants[Random().nextInt(colors_constants.length)];
-
     notifyListeners();
   }
 
-  //list of random colors
-
   void changeSize() {
-    //pick random size from 30 to 60
     _size = Random().nextInt(30).toDouble() + 30;
-
     notifyListeners();
   }
 
   void buildObject() {
-    // _number = 0;
-    // _color = Colors.blue;
-    // _size = 30;
     BallBuilder ballBuilder = BallBuilder();
+
+    //this is builder methods used to post add values to the ball method with the help of builder method
     ballBuilder.setNumber(_number).setColor(_color).setSize(_size);
 
+    // this will add BallModel into the list
     balls.add(ballBuilder.build());
-
     notifyListeners();
   }
 }

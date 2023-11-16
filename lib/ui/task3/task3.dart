@@ -7,6 +7,20 @@ class Task3 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Task 3"),
+      ),
+      body: SizedBox(
+          width: MediaQuery.of(context).size.width,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Text("Demonstrate render objects with custom paints"),
+              Text("Not Implemented"),
+            ],
+          )),
+    );
   }
 }

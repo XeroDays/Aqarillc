@@ -2,6 +2,11 @@ import 'package:agarillc/core/contants/app_constants.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 
+///Here we are using Slivers for Boucny app bar features as task
+///It is kind of a animated list incliuding appbar.
+///we can add multiple slivers to the same page
+///and Headers can be pinned in order to bettter view
+/// multiple sliver lists are added into CustomerScolllView
 @RoutePage()
 class Task4 extends StatelessWidget {
   const Task4({super.key});
