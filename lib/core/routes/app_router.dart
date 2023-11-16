@@ -11,5 +11,7 @@ class AppRouter extends $AppRouter {
     AutoRoute(page: Task2.page),
     AutoRoute(page: Task3.page),
     AutoRoute(page: Task4.page),
+    AutoRoute(page: Task5.page),
+    AutoRoute(page: Task6.page),
   ];
 }

@@ -22,4 +22,14 @@ class HomeViewmodel {
     // presenting builder pattern
     AutoRouter.of(context).push(Task4());
   }
+
+  void task5_onClick(context) {
+    // presenting builder pattern
+    AutoRouter.of(context).push(Task5());
+  }
+
+  void task6_onClick(context) {
+    // presenting builder pattern
+    AutoRouter.of(context).push(Task6());
+  }
 }
