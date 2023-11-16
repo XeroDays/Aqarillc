@@ -1,6 +1,4 @@
 import 'dart:async';
-
-import 'package:agarillc/core/contants/app_constants.dart';
 import 'package:agarillc/ui/task2/task2_viewmodel.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
@@ -36,7 +34,7 @@ class _Task2State extends State<Task2> {
           Text(
               "Demonstrate asynchronous generator with bloc including with transformers",
               style: TextStyle(fontSize: 16)),
-          Container(
+          SizedBox(
             height: MediaQuery.of(context).size.height * 0.7,
             child: StreamBuilder<int>(
               stream: myStream,
@@ -50,7 +48,7 @@ class _Task2State extends State<Task2> {
                     children: [
                       Text('Without Transformation',
                           style: TextStyle(fontSize: 21)),
-                      Text('asynchronous generator Direct: ${value}'),
+                      Text('asynchronous generator Direct: $value'),
                       SizedBox(
                         height: 100,
                       ),

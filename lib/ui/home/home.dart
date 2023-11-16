@@ -1,4 +1,3 @@
-import 'package:agarillc/core/routes/app_router.gr.dart';
 import 'package:agarillc/ui/custom_widgets/custom_button.dart';
 import 'package:agarillc/ui/home/home_viewmodel.dart';
 import 'package:auto_route/auto_route.dart';
