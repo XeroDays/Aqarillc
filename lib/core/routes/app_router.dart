@@ -8,5 +8,8 @@ class AppRouter extends $AppRouter {
   final List<AutoRoute> routes = [
     AutoRoute(page: Home.page, initial: true),
     AutoRoute(page: Tast1.page),
+    AutoRoute(page: Task2.page),
+    AutoRoute(page: Task3.page),
+    AutoRoute(page: Task4.page),
   ];
 }

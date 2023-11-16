@@ -23,21 +23,28 @@ class _HomeState extends State<Home> {
             CustomButton(
               "Task 1",
               () {
-                viewmodel.task1(context);
+                viewmodel.task1_onClick(context);
               },
               width: 150,
             ),
             CustomButton(
               "Task 2",
               () {
-                // viewmodel.task1();
+                viewmodel.task2_onClick(context);
               },
               width: 150,
             ),
             CustomButton(
               "Task 3",
               () {
-                // viewmodel.task1();
+                viewmodel.task3_onClick(context);
+              },
+              width: 150,
+            ),
+            CustomButton(
+              "Task 4",
+              () {
+                viewmodel.task4_onClick(context);
               },
               width: 150,
             )
