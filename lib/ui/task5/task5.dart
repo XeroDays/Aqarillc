@@ -22,8 +22,9 @@ class Task5 extends StatelessWidget {
           body: model.isLoading
               ? Center(child: CircularProgressIndicator())
               : Center(
-                  child:
-                      CustomButton("Call API that fails in 3 seconds", () {})),
+                  child: CustomButton("Call API that fails in 3 seconds", () {
+                  model.callApi(context);
+                })),
         );
       }),
     );

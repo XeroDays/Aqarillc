@@ -2,6 +2,10 @@
 import 'package:agarillc/core/routes/app_router.gr.dart';
 import 'package:auto_route/auto_route.dart';
 
+//here i am using auto_route package to generate routes for the application
+// these routes can be categorized based on the application flow
+// we use it to block any accendental access to the routes
+// secure authontication based transitions based on user roles
 @AutoRouterConfig()
 class AppRouter extends $AppRouter {
   @override
