@@ -60,7 +60,8 @@ class _HomeState extends State<Home> {
                 viewmodel.task6_onClick(context);
               },
               width: 150,
-            )
+            ),
+            Text("Every task is in own file and fully commented!")
           ],
         ),
       ),
